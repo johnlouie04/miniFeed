@@ -84,7 +84,7 @@ Tweet = (function() {
   };
 
   Tweet.apiUrl = function(options) {
-    return "http://twitcher.steer.me/user_timeline/" + options.username;
+    return "http://twitcher.steer.me/user_timeline/" + options.username + "?key=qxmpj2dr";
   };
 
   return Tweet;
