@@ -49,7 +49,7 @@ Tweet = (function() {
   };
 
   Tweet.prototype.avatar = function() {
-    return "<img src='" + (this.avatarUrl()) + "' class='" + this.options.avatarClass + "' title='" + this.options.username + "' height='" + this.options.avatarSize + "' width='" + this.options.avatarSize + "'/>";
+    return "<div class='feed-avatar'><img src='" + (this.avatarUrl()) + "' class='" + this.options.avatarClass + "' title='" + this.options.username + "' height='" + this.options.avatarSize + "' width='" + this.options.avatarSize + "'/></div>";
   };
 
   Tweet.prototype.time = function() {

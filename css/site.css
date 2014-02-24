@@ -56,14 +56,14 @@ section {
 }
 
 .mini-feed ul {
-    margin: 0 10px 0 0;
+    margin: 0;
     padding: 0;
 }
 
 .mini-feed li {
     border-bottom: 1px solid #F2F2F2;
     list-style: none;
-    padding: 10px 20px 10px 10px;
+    padding: 10px;
     font-size: 13px;
     line-height: 16px;
     min-height: 48px;
@@ -73,14 +73,16 @@ section {
     border: none;
 }
 
-.mini-feed li img {
-    border-radius: 6px;
+.mini-feed li .feed-avatar {
     float: left;
-    margin: 0 10px 10px 0;
+    margin-right: 10px;
+}
+
+.mini-feed li .feed-avatar img {
+    border-radius: 6px;
 }
 
 .mini-feed li span {
-    margin-left: 58px;
     display: block;
 }
 
@@ -89,6 +91,13 @@ section {
     color: #999;
     font-size: 11px;
     padding-top: 5px;
+    margin-left: 59px;
+}
+
+.mini-feed li .tweet-time,
+.mini-feed li .tweet-text {
+    width: auto;
+    overflow: hidden;
 }
 
 
